@@ -8,13 +8,13 @@ import Logo from './Logo'
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
   
-    const nameArray = ['z', 'e', ' ', 'Y', 'i', 'k']
-    const jobArray = ['f', 'u', 'l', 'l', 's', 't', 'a', 'c', 'k',' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.', ]
+    const nameArray = ['z', 'e', ' ', 'Y', 'i', 'k', '(', 'E', 'l', 's', 'o', 'n' ,')']
+    const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ','S', 'c', 'i', 'e', 'n', 'c', 'e', ' ', 'u', 'n', 'd', 'e', 'r', 'g', 'r', 'a', 'd', '.']
   
     useEffect(() => {
         setTimeout(() => {
             setLetterClass('text-animate-hover') 
-        }, 4000)   
+        }, 5500)   
     }, [])
   
     return (
@@ -40,7 +40,7 @@ const Home = () => {
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={jobArray}
-                idx={21}
+                idx={28}
               />
             </h1>
             <h2>Java / JavaScript / React / Python / C / C# / MySQL / MongoDB / Neo4j</h2>
