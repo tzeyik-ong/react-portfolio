@@ -38,7 +38,7 @@ const About = () => {
           </p>
           <p align="LEFT">
             I have experience in both front-end, back-end and full-stack development. I'm am naturally curious and loves 
-            learning. I am very focused and motivated when working on anythign I do.
+            learning. I am very focused and motivated when working on anything I do.
           </p>
           <p>
             If I need to define myself in one sentence, I am a hardworking, reliable and tech-obsessed.
