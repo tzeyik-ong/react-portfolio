@@ -1,0 +1,22 @@
+{
+    "portfolio": [
+        {
+            "cover": "./portfolio/JavaPlatformer/1.png",
+            "title": "Java Platformer",
+            "description": "Java",
+            "url": "https://github.com/tzeyik01/Java-Platformer-Game.git"
+        },
+        {
+            "cover": "./portfolio/Chess/1.png",
+            "title": "Chess",
+            "description": "Java",
+            "url": "https://github.com/tzeyik01/Chess_Java"
+        },
+        {
+            "cover": "./portfolio/ReactPortfolio/1.png",
+            "title": "React Portfolio (this website)",
+            "description": "JavaScript/React",
+            "url": "https://tzeyik01.github.io/react-portfolio/"
+        }
+    ]
+}
