@@ -26,9 +26,9 @@ const Home = () => {
             <h1>
               <span className={letterClass}>H</span>
               <span className={`${letterClass} _12`}>i,</span>
-              <br />
-              <span className={`${letterClass} _13`}>I</span>
-              <span className={`${letterClass} _14`}>'m</span>
+              <span className={`${letterClass} _13`}> </span>
+              <span className={`${letterClass} _14`}>I</span>
+              <span className={`${letterClass} _15`}>'m</span>
               <img
                 src={LogoTitle}
                 alt="Name"
@@ -36,18 +36,18 @@ const Home = () => {
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={nameArray1}
-                idx={15}
+                idx={16}
               />
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={nameArray2}
-                idx={21}
+                idx={22}
               />
               <br />
               <AnimatedLetters
                 letterClass={letterClass}
                 strArray={jobArray}
-                idx={28}
+                idx={29}
               />
             </h1>
             <h2>Java / JavaScript / React / Python / C / C# / MySQL / MongoDB / Neo4j</h2>
