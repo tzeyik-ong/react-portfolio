@@ -11,6 +11,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import { faC } from '@fortawesome/free-solid-svg-icons'
+import ProfileImg from  '../../assets/images/profile.jpg'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -24,7 +25,7 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-        <div className="text-zone">
+        <div className="text-zone">  
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -32,6 +33,7 @@ const About = () => {
               idx={15}
             />
           </h1>
+            <img className="profile-image" src={ProfileImg}/>
           <p>
             I'm a Computer Science major undergraduate from Iowa State University looking to get my first full time post-
             graduation job.
