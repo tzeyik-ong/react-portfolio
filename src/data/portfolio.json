@@ -17,6 +17,12 @@
             "title": "React Portfolio (this website)",
             "description": "JavaScript/React",
             "url": "https://tzeyik01.github.io/react-portfolio/"
+        },
+        {
+            "cover": "./portfolio/FlappyBird/1.png",
+            "title": "Flappy Bird",
+            "description": "C#, Unity",
+            "url": "https://github.com/tzeyik01/unity-flappy-bird"
         }
     ]
 }
