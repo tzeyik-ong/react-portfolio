@@ -11,7 +11,8 @@ const Home = () => {
   
     const nameArray1 = ['z', 'e', ' ', 'Y', 'i', 'k']
     const nameArray2 = ['(','E', 'l', 's','o','n',')']
-    const jobArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ','S', 'c', 'i', 'e', 'n', 'c', 'e', ' ', 'u', 'n', 'd', 'e', 'r', 'g', 'r', 'a', 'd', '.']
+    const jobArray1 = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ','S', 'c', 'i', 'e', 'n', 'c', 'e']
+    const jobArray2 = ['u', 'n', 'd', 'e', 'r', 'g', 'r', 'a', 'd', '.']
   
     useEffect(() => {
         setTimeout(() => {
@@ -47,8 +48,14 @@ const Home = () => {
               <br />
               <AnimatedLetters
                 letterClass={letterClass}
-                strArray={jobArray}
+                strArray={jobArray1}
                 idx={29}
+              />
+              <br />
+              <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray2}
+              idx={44}
               />
             </h1>
             <h2>Java / JavaScript / React / Python / C / C# / MySQL / MongoDB / Neo4j</h2>
