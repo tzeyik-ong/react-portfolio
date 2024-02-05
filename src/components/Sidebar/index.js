@@ -40,19 +40,19 @@ const Sidebar = () => {
                 size="3x"
                 className='close-icon'
             />
+            <ul className={showNav ? 'mobile-show' : ''}>
+                <li>
+                    <a className="linkedin" target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/tze-yik-ong-13887421b'>
+                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
+                    </a>
+                </li>
+                <li>
+                    <a className="github" target="_blank" rel='noreferrer' href='https://github.com/tzeyik01'>
+                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <ul>
-            <li>
-                <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/tze-yik-ong-13887421b'>
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
-                </a>
-            </li>
-            <li>
-                <a target="_blank" rel='noreferrer' href='https://github.com/tzeyik01'>
-                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
-                </a>
-            </li>
-        </ul>
         <FontAwesomeIcon 
             onClick={() => setShowNav(true)}
             icon={faBars}
