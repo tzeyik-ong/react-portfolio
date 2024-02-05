@@ -30,7 +30,7 @@ const Sidebar = () => {
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/react-portfolio/contact" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
             </NavLink>
-            <a exact="true" target="_blank" rel='noreferrer' className="resume-link" href="https://docs.google.com/document/d/1XP5NxP0b7o71VRbeCwTA2D-spqYq8i92/edit?usp=sharing&ouid=106912813493399807929&rtpof=true&sd=true">
+            <a exact="true" target="_blank" rel='noreferrer' className="resume-link" href="https://docs.google.com/document/d/1hUBzjj8bKHWu-j1yO8rQNt2zhVEUPiBaoahlZKgHhqw/edit?usp=sharing">
                 <FontAwesomeIcon icon={faBook} color="#4d4d4e"/>
             </a>
             <FontAwesomeIcon
